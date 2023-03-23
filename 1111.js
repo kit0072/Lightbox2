@@ -3,7 +3,7 @@
         $("head").append($("<link>").attr({
             rel: "stylesheet",
             type: "text/css",
-            href: "https://sites.google.com/site/asblin3/lightbox2/jquery.lightbox-0.5.css",
+            href: "https://raw.githubusercontent.com/kit0072/Lightbox2/main/jquery.lightbox-0.5.css",
             media: "screen"
         }));
         $.each($("div.post > div.post-body"), function(i, $obj){
@@ -14,9 +14,9 @@
                     });
             });
             $(".lightbox-group" + i).lightBox({
-                imageLoading: 'https://sites.google.com/site/asblin3/lightbox2/lightbox-ico-loading.gif',
-                imageBtnClose: 'https://sites.google.com/site/asblin3/lightbox2/lightbox-btn-close.gif',
-                imageBlank: 'https://sites.google.com/site/asblin3/lightbox2/lightbox-blank.gif',
+                imageLoading: 'https://raw.githubusercontent.com/kit0072/Lightbox2/main/lightbox-ico-loading.gif',
+                imageBtnClose: 'https://raw.githubusercontent.com/kit0072/Lightbox2/main/lightbox-btn-close.gif',
+                imageBlank: 'https://raw.githubusercontent.com/kit0072/Lightbox2/main/lightbox-blank.gif',
                 fixedNavigation: true,
                 overlayOpacity: 0.4,
                 containerResizeSpeed: 500
