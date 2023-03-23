@@ -1,5 +1,5 @@
 
-    $.getScript("https://sites.google.com/site/asblin3/lightbox2/jquery.lightbox-0.5.pack.js", function(){
+    $.getScript("https://raw.githubusercontent.com/kit0072/Lightbox2/main/jquery.lightbox-0.5.pack.js", function(){
         $("head").append($("<link>").attr({
             rel: "stylesheet",
             type: "text/css",
