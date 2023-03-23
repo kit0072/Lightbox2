@@ -1,8 +1,8 @@
- $.getScript("https://raw.githubusercontent.com/kit0072/Lightbox2/main/jquery.lightbox-0.5.pack.js", function(){
+    $.getScript("https://cdn.jsdelivr.net/gh/kit0072/Lightbox2/jquery.lightbox-0.5.pack.js", function(){
         $("head").append($("<link>").attr({
             rel: "stylesheet",
             type: "text/css",
-            href: "https://raw.githubusercontent.com/kit0072/Lightbox2/main/jquery.lightbox-0.5.css",
+            href: "https://cdn.jsdelivr.net/gh/kit0072/Lightbox2/jquery.lightbox-0.5.css",
             media: "screen"
         }));
         $.each($("div.post > div.post-body"), function(i, $obj){
@@ -13,9 +13,9 @@
                     });
             });
             $(".lightbox-group" + i).lightBox({
-                imageLoading: 'https://raw.githubusercontent.com/kit0072/Lightbox2/main/lightbox-ico-loading.gif',
-                imageBtnClose: 'https://raw.githubusercontent.com/kit0072/Lightbox2/main/lightbox-btn-close.gif',
-                imageBlank: 'https://raw.githubusercontent.com/kit0072/Lightbox2/main/lightbox-blank.gif',
+                imageLoading: 'https://cdn.jsdelivr.net/gh/kit0072/Lightbox2/lightbox-ico-loading.gif',
+                imageBtnClose: 'https://cdn.jsdelivr.net/gh/kit0072/Lightbox2/lightbox-btn-close.gif',
+                imageBlank: 'https://cdn.jsdelivr.net/gh/kit0072/Lightbox2/lightbox-blank.gif',
                 fixedNavigation: true,
                 overlayOpacity: 0.4,
                 containerResizeSpeed: 500
